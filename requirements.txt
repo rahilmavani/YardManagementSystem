@@ -1,0 +1,18 @@
+# Python Version
+Python == 3.11.2
+
+# Packages
+pandas == 2.0.3
+xgboost == 1.7.6
+scikit-learn == 1.3.0
+datetime == 5.2
+
+
+
+# Datasets
+1. piocd.csv == Past Dataset with IN and OUT times
+2. incoming.csv == New Dataset with IN times of incoming containers
+3. yloc.csv == Yard Locations which are either Empty or Filled
+
+# Output Dataset 
+1. incoming_containers_with_predictions.csv == Prediction of the Out time of Incoming Containers
